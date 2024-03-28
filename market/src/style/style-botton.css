@@ -1,0 +1,41 @@
+.center {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+
+.container_all_products {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.text_all_products {
+  flex-shrink: 0;
+  text-align: center;
+  color: #f26376;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 15px;
+}
+
+.botton {
+  display: flex;
+  justify-content: center;
+  margin-top: 33px;
+  margin-bottom: 60px;
+}
+
+.button_all_products {
+  position: relative;
+  transition-duration: 1s;
+}
+
+.button_all_products:hover {
+  box-shadow: #5d5d5d;
+  transform: scale(150%, 150%);
+}/*# sourceMappingURL=style-botton.css.map */

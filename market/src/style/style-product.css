@@ -1,0 +1,270 @@
+.caruesel {
+  display: flex;
+  justify-content: center;
+  height: 777px;
+  background: #f1eceb;
+}
+.caruesel__previous {
+  background-color: rgba(42, 42, 42, 0.1490196078);
+  margin-top: 365px;
+  opacity: 1;
+  width: 47px;
+  height: 47px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+}
+.caruesel__previous_icon {
+  padding-top: 11px;
+}
+.caruesel__next {
+  background-color: rgba(42, 42, 42, 0.1490196078);
+  margin-top: 365px;
+  opacity: 1;
+  width: 47px;
+  height: 47px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+}
+.caruesel__next_icon {
+  padding-top: 11px;
+}
+.caruesel__inner {
+  display: flex;
+  align-content: center;
+}
+.container_for_card {
+  display: flex;
+  justify-content: center;
+}
+
+.card__product {
+  position: relative;
+  background-color: white;
+  margin-top: -65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1140px;
+  border: 1px solid #EAEAEA;
+  margin-bottom: 130px;
+}
+
+.women__collections {
+  color: #F16D7F;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 64px;
+  margin-bottom: 12px;
+}
+
+.hr-under-women {
+  background: none;
+  background-color: #EF5B70;
+  height: 3px;
+  width: 63px;
+  opacity: 1;
+  border: 0;
+}
+
+.name__product {
+  color: #4D4D4D;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 49px;
+}
+
+.about__product {
+  color: #5E5E5E;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 32px;
+  width: 555px;
+  height: 51.431px;
+}
+
+.cost_product {
+  color: #EF5B70;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.hr-under-cost {
+  height: 1px;
+  width: 641px;
+  background: none;
+  background-color: #EAEAEA;
+  margin-bottom: 65px;
+}
+
+.nav__setings {
+  color: #6F6E6E;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  gap: 42px;
+  justify-content: center;
+  margin-bottom: 49px;
+}
+
+.nav__item__setings {
+  position: relative;
+}
+
+.summary_setings {
+  display: flex;
+}
+
+.summary_setings::after {
+  margin-left: 9px;
+  content: url("/Users/mafaka03/Documents/diplom/diploma-project/src/image/image-product/Vector.png");
+}
+
+summary {
+  display: block;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.setings-content {
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid #6F6E6E;
+}
+
+.button__add {
+  padding: 13px 43px;
+  border: 1px solid #FF6A6A;
+  margin-bottom: 65px;
+  color: #F26376;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  transition-duration: 0.3s;
+}
+.button__add:hover {
+  box-shadow: 0 0 5px #000000;
+  transform: scale(102%);
+}
+
+.content {
+  margin-bottom: 128px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    padding-left: 32px;
+    padding-right: 42px;
+  }
+  .heading__product {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    justify-content: center;
+    gap: 30px;
+  }
+  .conditions {
+    flex-direction: column;
+  }
+  .subscribe_and_review {
+    flex-direction: column;
+    gap: 48px;
+    padding-top: 64px;
+    padding-bottom: 140px;
+  }
+  .footer_site {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .header {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .heading__product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heading__product_nav {
+    margin-top: 32px;
+    margin-bottom: 46px;
+  }
+  .new_arrivals {
+    margin-top: 24px;
+    margin-bottom: 0;
+  }
+  .about__product {
+    width: 326px;
+    height: 105px;
+  }
+  .cost_product {
+    line-height: 130%;
+  }
+  .hr-under-cost {
+    width: 175px;
+  }
+  .summary_setings {
+    font-size: 10px;
+  }
+  .conditions {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe_and_review {
+    flex-direction: column;
+    gap: 59px;
+    padding-top: 64px;
+    padding-bottom: 110px;
+  }
+  .review {
+    width: 343px;
+    margin-right: 16px;
+  }
+  .subscribe {
+    margin-right: 30px;
+  }
+  .footer_site {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .logos {
+    margin-top: 43px;
+    margin-bottom: 40px;
+  }
+  .text_in_footer {
+    margin-top: 0;
+    margin-bottom: 9px;
+  }
+}/*# sourceMappingURL=style-product.css.map */
