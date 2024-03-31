@@ -4,6 +4,9 @@ import "../style/style-cart.css";
 import { Provider, useDispatch, useSelector } from "react-redux";
 import ProductForCart from "./cartForProvider";
 import { store } from "../store";
+import SubscribeReview from './review-and-subscribe';
+import Footer from './footer';
+
 
 function Cart() {
 
@@ -18,6 +21,8 @@ function Cart() {
       <Provider store={store}>
         <ProductForCart />
       </Provider>
+      <SubscribeReview />
+      <Footer/>
     </>
   );
 }

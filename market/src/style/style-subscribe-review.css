@@ -15,7 +15,7 @@
 .subscribe_and_review::before {
   position: absolute;
   content: " ";
-  background-image: url(/Users/mafaka03/Documents/diplom/diploma-project/src/image/background.jpg);
+  background-image: url(/Users/mafaka03/Documents/diplom/diploma-project/market/src/image/background.jpg);
   opacity: 0.3;
   top: 0;
   bottom: 0;
