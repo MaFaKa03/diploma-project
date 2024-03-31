@@ -1,0 +1,25 @@
+@import 'items';
+@import 'center';
+
+.subtitle {
+    margin-top: 96px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #222222;
+
+    margin-bottom: 6px;
+}
+
+.text_info {
+    color: #9f9f9f;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 48px;
+    text-align: center;
+}

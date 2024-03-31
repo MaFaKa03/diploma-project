@@ -1,0 +1,126 @@
+.center {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+
+.items {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 360px);
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 120px;
+}
+
+.item {
+  position: relative;
+}
+.item:hover .image_item {
+  filter: brightness(0.5);
+}
+.item:hover .div_for_item2 {
+  filter: brightness(0.5);
+}
+.item:hover .product_add {
+  display: flex;
+}
+
+.image_item {
+  width: 100%;
+}
+
+.div_for_item2 {
+  background-color: #f7e4e2;
+  padding-top: 9px;
+  padding-left: 108px;
+  padding-right: 111px;
+  padding-bottom: 11px;
+}
+
+.product_info {
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px 16px;
+  gap: 16px;
+}
+
+.name_item {
+  color: #000;
+  line-height: 16px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.item_info {
+  color: #5d5d5d;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 17px;
+}
+
+.cost {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.product_add {
+  position: absolute;
+  top: 188px;
+  left: 111px;
+  border: 1px solid #fff;
+  width: 139px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  color: #ffffff;
+}
+
+.product_add:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.product_add:hover svg path {
+  fill: #F16D7F;
+}
+
+.center {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+
+.subtitle {
+  margin-top: 96px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #222222;
+  margin-bottom: 6px;
+}
+
+.text_info {
+  color: #9f9f9f;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 48px;
+  text-align: center;
+}/*# sourceMappingURL=style-content.css.map */

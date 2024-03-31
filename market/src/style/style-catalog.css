@@ -1,0 +1,242 @@
+.sort-general {
+  position: relative;
+  height: 134px;
+}
+
+.filter {
+  top: 39px;
+  padding-top: 13px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+  width: 360px;
+  position: absolute;
+  z-index: 1;
+  box-sizing: border-box;
+}
+.filter__heading {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.filter[open] .filter_heading {
+  color: #F16D7F;
+}
+.filter[open] path {
+  fill: #F16D7F;
+}
+.filter[open] {
+  background: #FFF;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+.filter__category {
+  margin-top: 18px;
+}
+.filter__category[open] .category__heading {
+  color: #F16D7F;
+}
+.filter__linker-box {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.filter__link {
+  color: #6F6E6E;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 11px;
+  margin-left: 33px;
+}
+.filter__link:hover {
+  color: #F16D7F;
+}
+.filter__summary-inner {
+  color: #6F6E6E;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: block;
+  margin-bottom: 18px;
+  padding-left: 11px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #EBEBEB;
+  border-left: #F16D7F solid 5px;
+}
+.filter__summary {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.sort {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  box-sizing: border-box;
+  margin-top: 51px;
+  margin-left: 390px;
+}
+.sort__box {
+  padding: 7px 30px 11px 9px;
+  position: absolute;
+  background: #FFF;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  margin-top: 5px;
+  margin-left: -9px;
+}
+.sort__heading {
+  color: #6F6E6E;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sort__summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #6F6E6E;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sort__check {
+  color: #6F6E6E;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-content: center;
+  gap: 9px;
+  margin-bottom: 6px;
+}
+
+.nav-catalog {
+  margin-top: 49px;
+  margin-bottom: 97px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  width: 283px;
+  margin-left: 428px;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  border: 1px solid #EBEBEB;
+}
+.nav-catalog_svg:hover path {
+  fill: #F16D7F;
+}
+.nav-catalog__link {
+  color: #6F6E6E;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.nav-catalog__link:hover {
+  color: #F16D7F;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    padding-left: 32px;
+    padding-right: 42px;
+  }
+  .heading__product {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .nav-catalog {
+    margin-left: 243px;
+  }
+  .conditions {
+    flex-direction: column;
+  }
+  .subscribe_and_review {
+    flex-direction: column;
+    gap: 48px;
+    padding-top: 64px;
+    padding-bottom: 140px;
+  }
+  .footer_site {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .header {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .heading__product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heading__product_nav {
+    margin-top: 32px;
+    margin-bottom: 46px;
+  }
+  .new_arrivals {
+    margin-top: 24px;
+    margin-bottom: 0;
+  }
+  .filter_heading {
+    display: none;
+  }
+  .filter_svg {
+    width: 37px;
+    height: 25px;
+  }
+  .sort {
+    margin-left: 107px;
+  }
+  .nav-catalog {
+    margin-left: 68px;
+  }
+  .conditions {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe_and_review {
+    flex-direction: column;
+    gap: 59px;
+    padding-top: 64px;
+    padding-bottom: 110px;
+  }
+  .review {
+    width: 343px;
+    margin-right: 16px;
+  }
+  .subscribe {
+    margin-right: 30px;
+  }
+  .footer_site {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .logos {
+    margin-top: 43px;
+    margin-bottom: 40px;
+  }
+  .text_in_footer {
+    margin-top: 0;
+    margin-bottom: 9px;
+  }
+}/*# sourceMappingURL=style-catalog.css.map */

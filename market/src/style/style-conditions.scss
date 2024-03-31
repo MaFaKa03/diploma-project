@@ -1,0 +1,31 @@
+@import 'center';
+.conditions {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #222224;
+    padding-top: 103px;
+    padding-bottom: 104px;
+  }
+  .condition {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .title_conditions {
+    color: #fbfbfb;
+    font-size: 19.96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .text_conditions {
+    color: #fbfbfb;
+    text-align: center;
+    font-size: 13.972px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
